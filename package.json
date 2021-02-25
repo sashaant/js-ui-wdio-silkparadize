@@ -1,0 +1,31 @@
+{
+  "name": "js-ui-wdio-silkparadize",
+  "version": "1.0.0",
+  "description": "automation project for the Silkparadize",
+  "scripts": {
+    "test": "wdio wdio.conf.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashaant/js-ui-wdio-silkparadize.git"
+  },
+  "author": "Sasha Antonenko <antonenko.qa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sashaant/js-ui-wdio-silkparadize/issues"
+  },
+  "homepage": "https://github.com/sashaant/js-ui-wdio-silkparadize#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.0.8"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.0.8",
+    "@wdio/mocha-framework": "^7.0.7",
+    "@wdio/spec-reporter": "^7.0.7",
+    "@wdio/sync": "^7.0.8",
+    "chromedriver": "^88.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.2",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
+}
