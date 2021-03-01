@@ -1,4 +1,4 @@
-# js-ui-wdio-silkparadize
+# js-ui-wdio-practice
 Automation practice for sillparadize.com.ua
 
 Guide setup for the project:
