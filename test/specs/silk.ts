@@ -1,4 +1,4 @@
-describe('Website', () => {
+/*describe('Website', () => {
     
     it('should open silkparadize main page', () => {
         browser.url('https://silkparadize.com.ua');
@@ -6,3 +6,4 @@ describe('Website', () => {
         browser.pause(5000);
     })
 })
+*/
