@@ -1,4 +1,4 @@
-describe('Optio login', () => {
+/*describe('Optio login', () => {
     
     it('open optio login page(test.env) ', () => {
         browser.url('https://test.optiovalhalla.eu')
@@ -36,7 +36,7 @@ describe('Optio login', () => {
 
         //expect($(__next > div.jss1.jss2 > div > div > div > form > div > div > p')).toHaveText('Email is required for authorization')
     })
-    */
+    
 
     it('click sign in only', () => {
         const signInButton = $('#__next > div.jss1.jss2 > div > div > div > form > div > button > span.MuiButton-label')
@@ -70,11 +70,10 @@ describe('Optio login', () => {
         browser.pause(2000)
         browser.refresh()
 
+        browser.closeWindow()
         //expect($(__next > div.jss1.jss2 > div > div > div > form > div > div > p')).toHaveText('Email is required for authorization')
     });
 
-
-    
-
-    browser.closeWindow()
+    //browser.closeWindow()
 })
+*/
